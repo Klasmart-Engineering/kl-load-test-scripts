@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "generate-token-file": "node utils/generate-token-file.js" 
+  },
+  "devDependencies": {
+    "chromedriver": "^97.0.4",
+    "geckodriver": "^3.0.1",
+    "nightwatch": "2.0.6"
+  },
+  "dependencies": {
+    "2": "^3.0.0",
+    "css-loader": "^2.1.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "nightwatch-html-reporter": "^2.0.6"
+  }
+}
