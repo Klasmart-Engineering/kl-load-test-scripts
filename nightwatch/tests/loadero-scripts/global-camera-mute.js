@@ -22,7 +22,7 @@ module.exports = {
 
         function joinRoom(client, token) {
             return client
-                .url(`https://${liveDomain}/?token=${token}`)
+                .url(`https://${liveDomain}/?token=${token}&selectionStrategy=random`)
                 .setCookie({
                     name: `access`,
                     value: tokens.accessToken,
