@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "2": "^3.0.0",
-    "css-loader": "^2.1.0",
+    "css-loader": "^6.7.3",
     "dotenv": "^16.0.0",
     "fs": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
